@@ -274,7 +274,7 @@ public class KdTreeTests {
         KdTreeTests set100k = new KdTreeTests();
         for (int i = 0; !in100k.isEmpty(); i++) {
             double x = in100k.readDouble(), y = in100k.readDouble();
-            set10k.insert(new Point2D(x, y));
+            set100k.insert(new Point2D(x, y));
         }
         
         Stopwatch time100k = new Stopwatch();
